@@ -13,7 +13,8 @@
     "prettier"
   ],
   "env": {
-    "vue/setup-compiler-macros": true
+    "vue/setup-compiler-macros": true,
+    "node": true
   },
   "rules": {
     "vue/script-setup-uses-vars": "error"
