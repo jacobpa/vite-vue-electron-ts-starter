@@ -2,7 +2,7 @@
   "name": "vite-vue-electron-template",
   "version": "0.0.0",
   "scripts": {
-    "electron:dev": "cross-env NODE_EN=development electron index.js",
+    "electron:dev": "cross-env NODE_ENV=development electron index.js",
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
