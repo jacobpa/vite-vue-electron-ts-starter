@@ -1,0 +1,8 @@
+{
+  "appId": "com.jacobpa.vue-vite-electron-ts-template",
+  "productName": "Vue Vite Typescript Electron Template",
+  "directories": {
+    "output": "dist/electron"
+  },
+  "files": ["dist/main/**/*", "dist/render/**/*"]
+}

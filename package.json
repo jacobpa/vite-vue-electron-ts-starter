@@ -1,8 +1,10 @@
 {
   "name": "vite-vue-electron-template",
   "version": "0.0.0",
+  "main": "dist/main/index.js",
   "scripts": {
     "electron:dev": "cross-env NODE_ENV=development electron index.js",
+    "electron:build": "rimraf dist && npm run build && tsc -p tsconfig.electron.json && electron-builder",
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
