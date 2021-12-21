@@ -7,7 +7,7 @@ configured to work with Electron (16) with linting and formatting by ESLint and 
 
 Take a look at the scripts defined in `package.json`.
 
-Development:
+### Development:
 
 1. Run `yarn vite:dev` to start the vite development server.
 2. Run `yarn electron:dev` to start the development electron instance.
