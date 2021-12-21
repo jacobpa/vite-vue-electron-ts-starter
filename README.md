@@ -9,9 +9,9 @@ Take a look at the scripts defined in `package.json`.
 
 ### Development:
 
-1. Run `yarn vite:dev` to start the vite development server.
-2. Run `yarn electron:watch` to watch and compile the `src/main` code.
-3. Run `yarn electron:dev` to start the development electron instance using the output from above.
+1. Run `pnpm vite:dev` to start the vite development server.
+2. Run `pnpm electron:watch` to watch and compile the `src/main` code.
+3. Run `pnpm electron:dev` to start the development electron instance using the output from above.
 
 ## Original Vite README
 
