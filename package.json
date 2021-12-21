@@ -1,6 +1,7 @@
 {
   "name": "vite-vue-electron-template",
   "version": "0.0.0",
+  "license": "MIT",
   "main": "dist/main/index.js",
   "scripts": {
     "electron:dev": "cross-env NODE_ENV=development electron index.js",
