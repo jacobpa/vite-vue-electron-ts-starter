@@ -5,7 +5,7 @@
   "main": "dist/main/index.js",
   "scripts": {
     "electron:dev": "cross-env NODE_ENV=development electron index.js",
-    "electron:build": "rimraf dist && npm run build && tsc -p tsconfig.electron.json && electron-builder",
+    "electron:build": "rimraf dist && npm run vite:build && tsc -p tsconfig.electron.json && electron-builder",
     "vite:dev": "vite",
     "vite:build": "vue-tsc --noEmit && vite build",
     "vite:preview": "vite preview",
