@@ -1,4 +1,5 @@
 import { app, BrowserWindow } from "electron";
+import { join } from "path";
 
 const isDevelopment = process.env.NODE_ENV === "development";
 
@@ -7,7 +8,10 @@ let mainWindow: BrowserWindow | null;
 
 function createMainWindow() {
   const window = new BrowserWindow({
-    webPreferences: { nodeIntegration: true },
+    webPreferences: {
+      nodeIntegration: true,
+      preload: join(__dirname, "preload.js"),
+    },
   });
 
   if (isDevelopment) {
